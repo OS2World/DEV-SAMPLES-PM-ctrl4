@@ -1,0 +1,15 @@
+
+LIBRARY         BarChart INITINSTANCE TERMINSTANCE 
+
+DESCRIPTION     'Bar Chart Sample Control'
+
+CODE            LOADONCALL EXECUTEREAD NOIOPL NONCONFORMING
+DATA            LOADONCALL READWRITE NOIOPL MULTIPLE NONSHARED
+
+PROTMODE
+
+EXETYPE         OS2
+
+EXPORTS         BarChartRegister @ 1
+                BarChartQuery @ 2
+                BarChartStyles @ 3
